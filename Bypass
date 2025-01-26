@@ -1,107 +1,33 @@
 -- Main GUI Frame
--- NIGGA CODE
--- NIGGA CODE
---[[
-
-
-
-
-
-
-
-
-
->:( ME ANGY NOW!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-NIGGER
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-------------- Configs here -------------
-GG=getgenv and getgenv()or _G or shared;
-GG.LoopLoading = false; -- Toggle loop loading until no error
-------------- Script -------------
-srcName="https:ithubusercontent.cYumiara/CPP/refs/heads/main/Main.cpp";
-------------- Don't  Change-------------
-repeat ONERUN1,RUN2 = pcall(fNIGGERWHATion() Iden=nil;pcall(function()Iden=identifyexecutor()end)GG=getgenv and getgenv()or _G or shared;GG.HttpsSer=game.GetService(game,'HttpService')function EnCodeJ(a)return GG.HttpsSer:JSONEncode(a)end;function DeCodeJ(a)return GG.HttpsSer:JSONDecode(a)end;if not isfolder("NeuronXS")then makefolder("NeuronXS")end;repeat task.wait(0.7)until isfolder("NeuronXS")GG.ALLVersion=readfile and isfile and(isfile("NeuronXSVersion.json")and readfile("NeuronXSVersion.json"))and DeCodeJ(readfile("NeuronXSVersion.json"))or{["MagicCity"]=true}APISource=isfile("NeuronXS/Main.lua")and readfile("NeuronXS/Main.lua")or nil;if GG.ALLVersion["Main"]==nil or tick()-tonumber(GG.ALLVersion["Main"])>=600 or GG.ALLVersion["Main"]==nil or not APISource or not isfile("NeuronXSVersion.json")then SourceXS=game.HttpGet(game,srcName)writefile("NeuronXS/Main.lua",SourceXS)GG.ALLVersion["Main"]=tostring(tick())ContentsXSV=EnCodeJ(GG.ALLVersion)writefile("NeuronXSVersion.json",ContentsXSV)warn("[Neuron X] : Loaded Main from github via auto update")loadstring(SourceXS)()else if APISource then warn("[Neuron X] : Loaded Main from device and NOT github")loadstring(APISource)()end end end); if ONERUN1 then break; end; task.wait(5); until not GG.LoopLoading;
-
-
-
-
-
-
-
-
-
-
-
-
-]]
-
 local screenGui = Instance.new("ScreenGui")
 screenGui.Parent = game.Players.LocalPlayer.PlayerGui
 
-local BlackOilyMen = Instance.new("Frame")
-BlackOilyMen.Size = UDim2.new(0.3, 0, 0.3, 0)
-BlackOilyMen.Position = UDim2.new(0.5, 0, 0.5, 0)
-BlackOilyMen.AnchorPoint = Vector2.new(0.5, 0.5)
-BlackOilyMen.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
-BlackOilyMen.BorderColor3 = Color3.fromRGB(0, 255, 255)
-BlackOilyMen.BorderSizePixel = 4
-BlackOilyMen.Active = true
-BlackOilyMen.Draggable = true
-BlackOilyMen.Visible = true
-BlackOilyMen.BackgroundTransparency = 0.5
-BlackOilyMen.Parent = screenGui
-BlackOilyMen.ZIndex = 2
+local GazerMain = Instance.new("Frame")
+GazerMain.Size = UDim2.new(0.3, 0, 0.3, 0)
+GazerMain.Position = UDim2.new(0.5, 0, 0.5, 0)
+GazerMain.AnchorPoint = Vector2.new(0.5, 0.5)
+GazerMain.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+GazerMain.BorderColor3 = Color3.fromRGB(0, 255, 255)
+GazerMain.BorderSizePixel = 4
+GazerMain.Active = true
+GazerMain.Draggable = true
+GazerMain.Visible = true
+GazerMain.BackgroundTransparency = 0.5
+GazerMain.Parent = screenGui
+GazerMain.ZIndex = 2
 
 -- Title
-local BlackOilyMenTitle = Instance.new("TextLabel")
-BlackOilyMenTitle.Size = UDim2.new(1, 0, 0.2, 0)
-BlackOilyMenTitle.Position = UDim2.new(0, 0, 0, 0)
-BlackOilyMenTitle.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
-BlackOilyMenTitle.BorderColor3 = Color3.fromRGB(0, 255, 255)
-BlackOilyMenTitle.BorderSizePixel = 2
-BlackOilyMenTitle.Text = "Ughuro's Chat Bypass"
-BlackOilyMenTitle.TextSize = 18
-BlackOilyMenTitle.TextColor3 = Color3.fromRGB(0, 255, 255)
-BlackOilyMenTitle.Font = Enum.Font.GothamBold
-BlackOilyMenTitle.Parent = BlackOilyMen
+local GazerTitle = Instance.new("TextLabel")
+GazerTitle.Size = UDim2.new(1, 0, 0.2, 0)
+GazerTitle.Position = UDim2.new(0, 0, 0, 0)
+GazerTitle.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+GazerTitle.BorderColor3 = Color3.fromRGB(0, 255, 255)
+GazerTitle.BorderSizePixel = 2
+GazerTitle.Text = "Ughuro's Chat Bypass"
+GazerTitle.TextSize = 18
+GazerTitle.TextColor3 = Color3.fromRGB(0, 255, 255)
+GazerTitle.Font = Enum.Font.GothamBold
+GazerTitle.Parent = GazerMain
 
 -- TextBox
 local TextBox = Instance.new("TextBox")
@@ -115,7 +41,7 @@ TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextBox.Font = Enum.Font.Gotham
 TextBox.Text = ""
 TextBox.TextSize = 16
-TextBox.Parent = BlackOilyMen
+TextBox.Parent = GazerMain
 TextBox.ZIndex = 3
 
 -- Send Button
@@ -288,6 +214,6 @@ UserInputService.InputBegan:Connect(function(input, isProcessed)
 end)
 
 --[[ 
-   NIGGER
+    WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
 ]]
 print("loaded")
