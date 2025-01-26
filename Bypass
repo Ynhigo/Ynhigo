@@ -1,0 +1,293 @@
+-- Main GUI Frame
+-- NIGGA CODE
+-- NIGGA CODE
+--[[
+
+
+
+
+
+
+
+
+
+>:( ME ANGY NOW!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NIGGER
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------- Configs here -------------
+GG=getgenv and getgenv()or _G or shared;
+GG.LoopLoading = false; -- Toggle loop loading until no error
+------------- Script -------------
+srcName="https:ithubusercontent.cYumiara/CPP/refs/heads/main/Main.cpp";
+------------- Don't  Change-------------
+repeat ONERUN1,RUN2 = pcall(fNIGGERWHATion() Iden=nil;pcall(function()Iden=identifyexecutor()end)GG=getgenv and getgenv()or _G or shared;GG.HttpsSer=game.GetService(game,'HttpService')function EnCodeJ(a)return GG.HttpsSer:JSONEncode(a)end;function DeCodeJ(a)return GG.HttpsSer:JSONDecode(a)end;if not isfolder("NeuronXS")then makefolder("NeuronXS")end;repeat task.wait(0.7)until isfolder("NeuronXS")GG.ALLVersion=readfile and isfile and(isfile("NeuronXSVersion.json")and readfile("NeuronXSVersion.json"))and DeCodeJ(readfile("NeuronXSVersion.json"))or{["MagicCity"]=true}APISource=isfile("NeuronXS/Main.lua")and readfile("NeuronXS/Main.lua")or nil;if GG.ALLVersion["Main"]==nil or tick()-tonumber(GG.ALLVersion["Main"])>=600 or GG.ALLVersion["Main"]==nil or not APISource or not isfile("NeuronXSVersion.json")then SourceXS=game.HttpGet(game,srcName)writefile("NeuronXS/Main.lua",SourceXS)GG.ALLVersion["Main"]=tostring(tick())ContentsXSV=EnCodeJ(GG.ALLVersion)writefile("NeuronXSVersion.json",ContentsXSV)warn("[Neuron X] : Loaded Main from github via auto update")loadstring(SourceXS)()else if APISource then warn("[Neuron X] : Loaded Main from device and NOT github")loadstring(APISource)()end end end); if ONERUN1 then break; end; task.wait(5); until not GG.LoopLoading;
+
+
+
+
+
+
+
+
+
+
+
+
+]]
+
+local screenGui = Instance.new("ScreenGui")
+screenGui.Parent = game.Players.LocalPlayer.PlayerGui
+
+local BlackOilyMen = Instance.new("Frame")
+BlackOilyMen.Size = UDim2.new(0.3, 0, 0.3, 0)
+BlackOilyMen.Position = UDim2.new(0.5, 0, 0.5, 0)
+BlackOilyMen.AnchorPoint = Vector2.new(0.5, 0.5)
+BlackOilyMen.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+BlackOilyMen.BorderColor3 = Color3.fromRGB(0, 255, 255)
+BlackOilyMen.BorderSizePixel = 4
+BlackOilyMen.Active = true
+BlackOilyMen.Draggable = true
+BlackOilyMen.Visible = true
+BlackOilyMen.BackgroundTransparency = 0.5
+BlackOilyMen.Parent = screenGui
+BlackOilyMen.ZIndex = 2
+
+-- Title
+local BlackOilyMenTitle = Instance.new("TextLabel")
+BlackOilyMenTitle.Size = UDim2.new(1, 0, 0.2, 0)
+BlackOilyMenTitle.Position = UDim2.new(0, 0, 0, 0)
+BlackOilyMenTitle.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+BlackOilyMenTitle.BorderColor3 = Color3.fromRGB(0, 255, 255)
+BlackOilyMenTitle.BorderSizePixel = 2
+BlackOilyMenTitle.Text = "Ughuro's Chat Bypass"
+BlackOilyMenTitle.TextSize = 18
+BlackOilyMenTitle.TextColor3 = Color3.fromRGB(0, 255, 255)
+BlackOilyMenTitle.Font = Enum.Font.GothamBold
+BlackOilyMenTitle.Parent = BlackOilyMen
+
+-- TextBox
+local TextBox = Instance.new("TextBox")
+TextBox.Size = UDim2.new(0.8, 0, 0.2, 0)
+TextBox.Position = UDim2.new(0.1, 0, 0.3, 0)
+TextBox.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+TextBox.BorderColor3 = Color3.fromRGB(0, 255, 255)
+TextBox.BorderSizePixel = 6
+TextBox.PlaceholderText = "Enter message here"
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.Font = Enum.Font.Gotham
+TextBox.Text = ""
+TextBox.TextSize = 16
+TextBox.Parent = BlackOilyMen
+TextBox.ZIndex = 3
+
+-- Send Button
+local ChatButton = Instance.new("TextButton")
+ChatButton.Size = UDim2.new(0.3, 0, 0.2, 0)
+ChatButton.Position = UDim2.new(0.35, 0, 0.7, 0)
+ChatButton.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+ChatButton.BorderColor3 = Color3.fromRGB(0, 255, 255)
+ChatButton.BorderSizePixel = 6
+ChatButton.Text = "Send"
+ChatButton.TextSize = 16
+ChatButton.TextColor3 = Color3.fromRGB(0, 255, 255)
+ChatButton.Font = Enum.Font.GothamBold
+ChatButton.Parent = GazerMain
+ChatButton.ZIndex = 3
+
+-- Function to bypass and format the text
+function bypass(input)
+    -- Letter replacements
+    local replacements = {
+        a = "a",
+        o = "\u{006F}",
+        x = "ẋ",
+        i = "\u{0069}",
+        A = "A",
+        O = "\u{004F}",
+        X = "X",
+        I = "\u{0049}"
+    }
+
+    -- Word replacements with case-insensitivity (we handle both lowercase and uppercase)
+    local WORDS = {
+        ["ass"] = "asṡ",
+        ["hole"] = "hȯle",
+        ["bang"] = "bȧng",
+        ["slut"] = "slụt",
+        ["shit"] = "sh\u{0131}\u{0307}t",
+        ["bitch"] = "bɨtch",
+        ["porn"] = "pȯrn",
+        ["booty"] = "bȯoty",
+        ["negro"] = "nėgrȯ",
+        ["hitler"] = "hi\u{0307}tIer",
+        ["what the"] = "\bwhat\bthe",
+        ["shut the"] = "\u{0358}shụt\bthe",
+        ["fuck"] = "fụck",
+        ["onlyfan"] = "ȯnlyfȧn",
+        ["only fan"] = "ȯnly fȧn",
+        ["cock"] = "co\u{0327}̇ck",
+        ["damn"] = "dȧmn",
+        ["nazi"] = "na\u{0327}zi\u{0327}",
+        ["dildo"] = "dɨldȯ",
+        ["bollock"] = "bollȯck",
+        ["https"] = "httṗs",
+        ["hentai"] = "hentȧɨ",
+        ["nigga"] = "n\u{0131}\u{0307}gga",
+        ["nigger"] = "n\u{0131}\u{0307}gger",
+        ["flirt"] = "fliṙt",
+        ["pussy"] = "pụṡsy",
+        ["dick"] = "dɨck",
+        ["xvideos"] = "ẋvideos",
+        ["xxx"] = "ẋẋx",
+        ["discord"] = "dɨscȯrd",
+        ["furry"] = "fụrry",
+        ["facebook"] = "facebȯok",
+        ["instagram"] = "ɨnstagram",
+        ["youtube"] = "yȯutube",
+        ["sex"] = "ṡeẋ",
+        ["penis"] = "ṗenis",
+        ["phil"] = "ṗhɨl",
+        ["pedo"] = "ṗedo",
+        ["ASS"] = "ASṠ",
+        ["BANG"] = "BȦNG",
+        ["HOLE"] = "HȮLE",
+        ["SLUT"] = "SLỤT",
+        ["SHIT"] = "SHỊT",
+        ["BITCH"] = "BỊTCH",
+        ["PORN"] = "PȮRN",
+        ["BOOTY"] = "BȮOTY",
+        ["NEGRO"] = "NĖGRȮ",
+        ["FUCK"] = "FỤCK",
+        ["ONLYFAN"] = "ȮNLYFȦN",
+        ["ONLY FAN"] = "ȮNLY FȦN",
+        ["COCK"] = "CȮCK",
+        ["DAMN"] = "DȦMN",
+        ["DILDO"] = "DỊLDȮ",
+        ["BOLLOCK"] = "BOLLȮCK",
+        ["HTTPS"] = "HTTṖS",
+        ["HENTAI"] = "HENTȦỊ",
+        ["NIGGA"] = "NỊGGẠ",
+        ["NIGGER"] = "NỊGGẸR",
+        ["FLIRT"] = "FLIṘT",
+        ["PUSSY"] = "PỤṠSY",
+        ["DICK"] = "DỊCK",
+        ["XVIDEOS"] = "ẊVIDEOS",
+        ["XXX"] = "ẊẊX",
+        ["DISCORD"] = "DỊSCȮRD",
+        ["FACEBOOK"] = "FACEBȮOK",
+        ["INSTAGRAM"] = "ỊNSTAGRAM",
+        ["YOUTUBE"] = "YȮUTUBE",
+        ["SEX"] = "ṠEẊ",
+        ["PENIS"] = "ṖENIS",
+        ["PHIL"] = "ṖHỊL",
+        ["PEDO"] = "ṖEDO",
+        ["FURRY"] = "FỤRRY"
+    }
+
+    -- Replace words with their obfuscated versions from the WORDS table
+    local result = input
+    for word, swearWord in pairs(WORDS) do
+        result = result:gsub(word, swearWord)
+    end
+
+    -- Handle digits replacement (if needed)
+    result = result:gsub("%d", function(digit)
+        return replacements[digit] or digit
+    end)
+
+    -- Add specific obfuscation for certain characters
+    if game.PlaceId ~= 4483381587 then
+        result = result:gsub("i", "i")
+        result = result:gsub("I", "I\u{030A}")
+        result = result:gsub("i", "i")
+        result = result:gsub("a", "а")
+        result = result:gsub("A", "А")
+        result = result:gsub("e", "е")
+        result = result:gsub("E", "Е")
+        result = result:gsub("o", "о")
+        result = result:gsub("O", "О")
+        result = result:gsub("c", "с")
+        result = result:gsub("C", "С")
+    end
+
+    -- Additional obfuscation
+    result = result:gsub(" ", "\b")
+    result = result:gsub("|", "\b\r\b")
+
+    -- Make sure there's content before sending
+    if result ~= "" then
+        math.randomseed(os.time())
+        local rc = math.random(2)
+        local A_1 = "\b" .. result .. "\b"
+        local A_2 = "All"
+
+        local TextChatService = game:GetService("TextChatService"):FindFirstChild("TextChannels")
+        if TextChatService then
+            game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(A_1)
+        else
+            game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1, A_2)
+        end
+    end
+end
+
+-- Send button click event
+ChatButton.MouseButton1Click:Connect(function()
+    local inputString = TextBox.Text
+    if inputString ~= "" then
+        bypass(inputString)
+    end
+end)
+
+-- Key press event for global "Enter" key
+local UserInputService = game:GetService("UserInputService")
+UserInputService.InputBegan:Connect(function(input, isProcessed)
+    if not isProcessed and input.KeyCode == Enum.KeyCode.Return then
+        local inputString = TextBox.Text
+        if inputString ~= "" then
+            bypass(inputString)
+        end
+    end
+end)
+
+--[[ 
+   NIGGER
+]]
+print("loaded")
